@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
+#%% Main Deep Learning Classification Script using a Multi Head Attention Transformer Architecture for EEG Feature classification
+# Part of the submission 
 """
-Created on Sun Nov 16 21:09:31 2025
-@author: Antonios
-
 written by Antonios Dougalis, Feb 2026, Kuopio Finland
 contact: antoniosdougalis (at) gmail.com
 
