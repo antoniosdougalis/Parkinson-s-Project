@@ -4,6 +4,8 @@
 # Journal of Personalised Medicine;
 
 """
+Main Deep Learning Classification Script using a Multi Head Attention Transformer Architecture for EEG Feature classification
+
 written by Antonios Dougalis, Feb 2026, Kuopio Finland
 contact: antoniosdougalis (at) gmail.com
 
