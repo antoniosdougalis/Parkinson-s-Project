@@ -18,7 +18,7 @@ The files used to perform the Deep Learning Classification on the EEG extracted 
 -Main Script for the implementation of the Transformer Deep Learning classification on EEG Features using a Leave-One-Subject-Out (LOSO) procedure. 
 The Script includes the main analytic calculations & visualisation of the classification procedure implemented in the manuscript.
 
-3. projParki_import_AND_processData.py
+3. projParkin_import_AND_processData.py
 -Main script that imports raw data and performs the Preprocessing pipelineimplemented for this mnauscript. After this procesdure the data are subjected to Analysis for feature extraction
 Script executes
 a. Data importation
