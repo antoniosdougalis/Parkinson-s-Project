@@ -29,7 +29,10 @@ c. Data Filtering
 d. Implementation of Independent Component Analysis for Artifact removal
 e. Data packing and saving for further analysis
 
-4. Dougalis_2026_arXiv.pdf
+4. projParkin_Laplacian_Util_v1.py
+Head montage and Laplacian function utilised in the comparative study in the Supplementary data
+
+5. Dougalis_2026_arXiv.pdf
 -Main Mnauscript includind figures and Tables and Supplmentary material
 
 
