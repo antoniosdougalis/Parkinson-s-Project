@@ -2,7 +2,8 @@
 """
 Created on Thu Mar  5 02:30:38 2026
 
-@author: Antonios
+written by Antonios Dougalis, Feb 2026, Kozani Greece
+contact: antoniosdougalis (at) gmail.com; antoniosdougalis (at) med.uoc.gr 
 """
 
 import numpy as np
