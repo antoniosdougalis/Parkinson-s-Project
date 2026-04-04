@@ -1,7 +1,6 @@
 #%% Main Deep Learning Classification Script using a Multi Head Attention Transformer Architecture for EEG Feature classification
 # Part of the Submitted Manuscript 
-# Dougalis Antonios 2026, Interpretable Electrophysiological Features of Resting-State EEG Reveal Distributed Cortical Signatures in Parkinson’s Disease,
-# Journal of Personalised Medicine;
+# Dougalis Antonios 2026, Interpretable Electrophysiological Features of Resting-State EEG Reveal Distributed Cortical Signatures in Parkinson’s Disease, arXiv;
 
 """
 Main Deep Learning Classification Script using a Multi Head Attention Transformer Architecture for EEG Feature classification
