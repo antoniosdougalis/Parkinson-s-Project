@@ -25,10 +25,27 @@ c. Data Filtering
 d. Implementation of Independent Component Analysis for Artifact removal
 e. Data packing and saving for further analysis
 
-4. projParkin_Laplacian_Util_v1.py
+4. projParkin_PreProcANDFeatExtract_Util_v1.py
+-Main script with functions to perform several procedures of feature extactions from the data set, including
+a. time domain statsitics: compute_epoch_stats
+b. Welch PSD decomposition: compute_psd_welch
+c. aperiodic and periodic spectral decomposition via FOOOF toolbox: aperiodic_periodic_Spectral
+d. irasa algorithm for aperiodic/periodic spectral estimation via neurodsp toolbox: compute_irasa_aperiodic
+e. PLI, PLV and wPLI conncetvitiy via MNE toolbox: compute_mne_connectivity
+f. create and utlise a complex Morlet Wavelet Family for spectrasl decompositions (filtering, phase extraction and PSD):createComplexWaveletFamily,
+   fftWavelet, compute_Morlet_Spectrum
+g. Compute modulation index for phase coupling based on the method of Tort et al., 2012 J Neurophysiol: compute_pac, pacMI
+h. Compute phase-based connectivity: compute_phase_timeSeries, compute_plv_pli, compute_plv_pli_wpli
+i. PyBispectral PAC and PPC via Bicoherence Toolbox: compute_Bicoherence_PAC, compute_Bicoherence_PPC, compute_timeDelayEstimates
+j. compute Entropy and  mutual Information connectivity: compute_entropy, compute_mutInfo
+k. Compute Lempel-Ziv temporal complexity score: compute_Lempel_Ziv_Score
+l. Frequency Sliding procedure according to Cojen et al., 2014 J Neurosci: make_bandPass_filter, compute_FreqSliding, compute_masked_regions
+m. Harmonic Lock of Frequency Sliding: compute_FreqSlide_HarmonicRatioLock
+
+6. projParkin_Laplacian_Util_v1.py
 Head montage and Laplacian function utilised in the comparative study in the Supplementary data
 
-5. Dougalis_2026_arXiv.pdf
+7. Dougalis_2026_arXiv.pdf
 -Main Manuscript including Figures (6) and Tables (5) and Supplementary materials (3 Figures and one Table)
 
 
