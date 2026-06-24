@@ -10,13 +10,16 @@ The manuscript is available as a pre-print at arXiv at: https://arxiv.org/html/2
 The files used to perform the Deep Learning Classification on the EEG extracted features are freely available for public use:
 
 1. jpersMed_myReduced_Transformer.py
--Multi-Head Attention-Transformer Architecture for EEG Feature classification
+-Multi-Head Attention-Transformer Architecture for EEG Feature classification for feature Ablations Studies
 
-2. projParkin_Subj_DL_Main_Github.py
+2. projParkin_myReducedInterpretationMatrices_TransformerUtil.py
+-Main Multi-Head Attention-Transformer Architecture for EEG Feature classification for Channel IMportance and Attention Map Studies 
+
+3. projParkin_Subj_DL_Main_Github.py
 -Main Script for the implementation of the Transformer Deep Learning classification on EEG Features using a Leave-One-Subject-Out (LOSO) procedure. 
 The Script includes the main analytic calculations & visualisation of the classification procedure implemented in the manuscript.
 
-3. projParkin_import_AND_processData.py
+4. projParkin_import_AND_processData.py
 -Main script that imports raw data and performs the Preprocessing pipeline implemented for this manuscript. Following this procedure the data are subjected to Analysis for feature extraction
 Script executes
 a. Data importation
@@ -25,7 +28,7 @@ c. Data Filtering
 d. Implementation of Independent Component Analysis for Artifact removal
 e. Data packing and saving for further analysis
 
-4. projParkin_PreProcANDFeatExtract_Util_v1.py
+5. projParkin_PreProcANDFeatExtract_Util_v1.py
 -Main script with functions to perform several procedures of feature extactions from the data set, including
 a. time domain statsitics: compute_epoch_stats
 b. Welch PSD decomposition: compute_psd_welch
