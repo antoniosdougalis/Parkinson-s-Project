@@ -13,7 +13,7 @@ The files used to perform the Deep Learning Classification on the EEG extracted 
 -Multi-Head Attention-Transformer Architecture for EEG Feature classification for feature Ablations Studies
 
 2. projParkin_myReducedInterpretationMatrices_TransformerUtil.py
--Main Multi-Head Attention-Transformer Architecture for EEG Feature classification for Channel IMportance and Attention Map Studies 
+-Main Multi-Head Attention-Transformer Architecture for EEG Feature classification for weighted Channel Importance, Embedding Matrices and Attention Map Studies 
 
 3. projParkin_Subj_DL_Main_Github.py
 -Main Script for the implementation of the Transformer Deep Learning classification on EEG Features using a Leave-One-Subject-Out (LOSO) procedure. 
